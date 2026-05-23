@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "MCBE Anti Clog",
+        "description": "By AstoriaNova",
+        "uuid": "16ce6540-d171-4c3c-b86e-788cf33ff843",
+        "min_engine_version": [1, 21, 30],
+        "version": [1, 0,  0]
+    },
+    "modules": [
+        {
+            "description": "module",
+            "type": "data",
+            "uuid": "441e91a7-17df-42bd-add5-bfe5f6e9d662",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "module",
+            "uuid": "f5764406-a523-440a-8ede-2bad70fc11f0",
+            "version": "1.1.0-beta",
+            "type": "script",
+            "language": "javascript",
+            "entry": "main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "beta"
+        }
+    ]
+}
